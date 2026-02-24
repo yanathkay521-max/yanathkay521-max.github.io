@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>ไว้อาลัย</title>
+
+<script>
+function showPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+</script>
+
+</head>
+
+<!-- เข้าไฟล์นี้ปุ๊บ เด้งทันที -->
+<body onload="showPopup()" align="center">
+
+<!-- กล่องรูปเด้ง -->
+<div id="popup"
+     style="display:none;
+            position:fixed;
+            top:0; left:0;
+            width:100%; height:100%;
+            background-color:rgba(0,0,0,0.7);">
+
+    <div style="margin-top:60px;">
+        <img src="C:\Users\20\Downloads\S__20807684.jpg" width="400"><br><br>
+        <button onclick="closePopup()">ปิด</button>
+    </div>
+
+</div>
+
+</body>
+</html>
